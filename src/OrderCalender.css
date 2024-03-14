@@ -1,0 +1,78 @@
+/* .order-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .orders-for-date {
+    margin-top: 20px;
+  }
+  
+  .orders-for-date ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .orders-for-date li {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+   */
+
+
+   .order-calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .react-calendar {
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .orders-for-date {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .orders-for-date h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .orders-for-date ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .orders-for-date li {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .orders-for-date li::before {
+    content: "•";
+    color: #007bff;
+    margin-right: 5px;
+  }
+  
+  .orders-for-date li:last-child {
+    margin-bottom: 0;
+  }
+  

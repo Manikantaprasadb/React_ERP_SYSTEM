@@ -1,0 +1,66 @@
+/* Style for summary section */
+.summary-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .summary-title {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .summary-item {
+    margin-bottom: 10px;
+  }
+  
+  
+  .summary-label {
+    font-weight: bold;
+  }
+  
+  .summary-value {
+    margin-left: 10px;
+  }
+  
+  /* Style for navigation links/buttons */
+  .navigation {
+    margin-top: 20px;
+  }
+  
+  .navigation-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-link:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for buttons */
+  .navigation-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation-button:hover {
+    background-color: #0056b3;
+  }
+  

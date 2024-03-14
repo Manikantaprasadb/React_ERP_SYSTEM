@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.header{
+  background-color: rgb(200, 209, 240);
+  margin-top: -2%;
+  background-color: rgb(217, 221, 225);
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.button{
+  margin-left:"85%";
+  margin-top:2%
+}

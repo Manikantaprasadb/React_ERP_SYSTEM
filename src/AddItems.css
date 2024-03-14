@@ -1,0 +1,12 @@
+.form{
+    display: inline-flex;
+    border-radius: 3%;
+    border: 1%;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
